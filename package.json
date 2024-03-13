@@ -23,7 +23,8 @@
     "forge:fix": "forge fmt",
     "lint:fix": "yarn prettier:fix && yarn forge:fix",
     "prettier": "prettier --check '**/*.ts' && prettier --check '**/*.json'",
-    "docs": "typedoc"
+    "docs": "typedoc",
+    "prepare": "tsdx build"
   },
   "author": "@Uniswap",
   "prettier": {
